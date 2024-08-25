@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>My Page</div>
+  return <div className='container py-8'>My Page</div>
 }

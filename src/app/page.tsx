@@ -1,5 +1,5 @@
 import Image from 'next/image'
 
-export default function Home() {
-  return <div>home</div>
+export default function Top() {
+  return <div className='container py-8'>トップページコンテンツ</div>
 }
