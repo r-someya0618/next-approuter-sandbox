@@ -25,7 +25,6 @@ export const Header = async () => {
                   Sign Out
                 </button>
               </form>
-              <Link href='/mypage'>マイページ</Link>
             </div>
           </>
         )}
