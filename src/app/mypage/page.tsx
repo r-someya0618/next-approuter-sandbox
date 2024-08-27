@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 export default async function Page() {
   const session = await auth()
+  console.log(session?.user)
 
   return (
     <div className='py-8'>
@@ -19,6 +20,7 @@ export default async function Page() {
         <div>
           <p>id: {session?.user?.id}</p>
           <p>ユーザー名: {session?.user?.name}</p>
+          <p>Email: {session?.user?.email}</p>
           <p>LINE ID:</p>
         </div>
       </div>
